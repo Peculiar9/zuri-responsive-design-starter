@@ -9,7 +9,7 @@ const showMenu = (toggleId, navId) =>{
             console.log('Hello World');
 
             // Add the show-menu class to the div tag with the nav-links class
-            nav.classList.toggle('show-menu')
+            // nav.classList.toggle('show-menu')
         })
     }
 }

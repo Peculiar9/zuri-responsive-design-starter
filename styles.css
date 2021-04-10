@@ -363,11 +363,13 @@ i.menu__bar{
         height: auto;
         text-align: center;
         margin: auto;
-        width: 200px;
+        width: 100%;
+        max-width: 82vh;
+        margin: 0 auto;
         flex-direction: column;
         padding: 3.5rem .75rem;
         border-radius: 1rem;
-        transition: .4s;
+        transition: .45s;
     }
 
 div.snapshot-team {
@@ -403,7 +405,6 @@ div.footer-textarea textarea{
         text-align: center;
     }
         div.hero-background-pos {
-       background: red;
        left: 68.5%;
        /* top: -50%; */
     }
@@ -414,6 +415,7 @@ div.footer-textarea textarea{
     i.menu__bar{
         display: flex;
         color: #bcc3c7;
+        position: absolute;
         font-size: 1.5rem;
         cursor: pointer;
     }
@@ -422,6 +424,6 @@ div.footer-textarea textarea{
 
 .show-menu {
     top: 30%;
-  }
+}
 
 
