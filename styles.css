@@ -45,6 +45,8 @@ ul li a:hover {
     padding: 0.5rem;
 }
 
+/* HERO SECTION */
+
 div.hero-section {
     background: #304353;
     padding: 10rem;
@@ -349,11 +351,16 @@ div.footer h6 {
 i.menu__bar{
     display: none;
 }
+
+#check{
+    display: none;
+}
+/* RESPONSIVE */
 @media only screen and (max-width:768px) {
     
     ul.nav-links {
-        display: flex;
-        /* display: none; */
+       
+        display: none;
         position: fixed;
         left: 50%;
         top: -100%;
@@ -369,8 +376,8 @@ i.menu__bar{
         flex-direction: column;
         padding: 3.5rem .75rem;
         border-radius: 1rem;
-        transition: .45s;
     }
+
 
 div.snapshot-team {
     /* background: #f0f0f0; */
@@ -419,11 +426,13 @@ div.footer-textarea textarea{
         font-size: 1.5rem;
         cursor: pointer;
     }
-  
+    #check:checked ~ ul.nav-links{
+        /* top: 70%; */
+        display: flex;
+        top: 50%;
+
+    }
 }
 
-.show-menu {
-    top: 30%;
-}
 
 
