@@ -426,6 +426,14 @@ div.footer-textarea textarea{
         font-size: 1.5rem;
         cursor: pointer;
     }
+    div.hero-content-heading h3 {
+        font-size: 1.3rem;
+        
+    }
+    div.hero-content-heading p {
+        font-size: 14px;
+        
+    }
     #check:checked ~ ul.nav-links{
         /* top: 70%; */
         display: flex;
